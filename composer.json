@@ -1,0 +1,7 @@
+{
+    "require": {
+        "camspiers/statistical-classifier": "*",
+        "Camspiers/statistical-classifier": "*",
+        "maximebf/cachecache": "*"
+    }
+}

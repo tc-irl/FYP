@@ -1,0 +1,57 @@
+.jumbotron
+{
+	margin-right: 120px;
+	margin-left: 90px;
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
+
+.btn-group
+{
+	text-align: left;
+	margin-right: 60px;
+	margin-top: 50px;
+}
+
+.button-right
+{
+	position: relative;
+	bottom: 0;
+}
+
+label.error
+{
+	font-weight: bold;
+	color: red;
+}
+
+label
+{
+	font-size: 18px;
+}
+
+.dz-max-files-reached 
+{
+	background-color: red;
+}
+
+.alert 
+{   
+   margin-right: 108px;
+   margin-left: 105px;
+   text-align: center;
+}
+
+th 
+{   
+text-align: center;
+color: #428bca;
+}
+td
+{
+text-align: center;
+}
