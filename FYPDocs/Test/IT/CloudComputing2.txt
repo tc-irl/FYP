@@ -1,0 +1,6 @@
+There are different types of clouds that you can subscribe to depending on your needs. As a home user or small business owner, you will most likely use public cloud services.
+Public Cloud - A public cloud can be accessed by any subscriber with an internet connection and access to the cloud space.
+Private Cloud - A private cloud is established for a specific group or organization and limits access to just that group.
+Community Cloud - A community cloud is shared among two or more organizations that have similar cloud requirements.
+Hybrid Cloud - A hybrid cloud is essentially a combination of at least two clouds, where the clouds included are a mixture of public, private, or community.
+Each provider serves a specific function, giving users more or less control over their cloud depending on the type. When you choose a provider, compare your needs to the cloud services available. Your cloud needs will vary depending on how you intend to use the space and resources associated with the cloud. If it will be for personal home use, you will need a different cloud type and provider than if you will be using the cloud for business. Keep in mind that your cloud provider will be pay-as-you-go, meaning that if your technological needs change at any point you can purchase more storage space (or less for that matter) from your cloud provider.

@@ -21,12 +21,12 @@
 	        }
 	        else
 	        {
-	        	echo "<div class='alert alert-danger alert-dismissable'><b>Email does not exist</b></div>";
+	        	echo "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b>Email does not exist</b></div>";
 	        }
 		}
 		else
 		{ 
-			echo "<div class='alert alert-danger alert-dismissable'><b>Please fill in all spaces</b></div>";
+			echo "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b>Please fill in all spaces</b></div>";
 		}
 	}
 ?>	
@@ -60,7 +60,16 @@
 	</div>
 </div>
 	<script>
-		$("#reset-form").validate();
+		          $(document).ready(function(){
+              $("#reset-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                  }
+              });
+          });  
 	</script>
 </body>
 </html>

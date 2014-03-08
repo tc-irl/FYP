@@ -77,7 +77,16 @@ function send_mail_to($to,$mailer,$newpass)
 		</form>
 
  	<script>
-		$("#forgot-form").validate();
+		 	$(document).ready(function(){
+              $("#forgot-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success'); 
+                  }
+              });
+          }); 
 	</script>
 </body>
 </html>

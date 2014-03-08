@@ -57,7 +57,16 @@
 	</form>
 	 		
 	 <script>
- 		$("#login-form").validate();
+          $(document).ready(function(){
+              $("#login-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                  }
+              });
+          });       
  	</script>
 
 </body>

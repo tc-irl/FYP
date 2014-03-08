@@ -24,16 +24,16 @@
 	            send_mail_from($email,$acronym,$definition,$category,$source,$mailer);
 	            send_mail_to($email,$acronym,$mailer);
 
-				echo "<div class='alert alert-success'><b>Thank you for your suggestion </b></div>";
+				echo "<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Thank you for your suggestion </b></div>";
 			}
 			else
 			{
-				echo "<div class='alert alert-danger'> <b> Please fill in all spaces </b></div>";
+				echo "<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b> Please fill in all spaces </b></div>";
 			}
 		}
 		else
 		{
-			echo "<div class='alert alert-danger'><b> Please login to suggest an acronym </b></div>"; 
+			echo "<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b> Please login to suggest an acronym </b></div>"; 
 		}
 	}
 
@@ -111,7 +111,16 @@
 			</form>
 
  			<script>
- 				$("#suggest-form").validate();
+ 				          $(document).ready(function(){
+              $("#suggest-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                  }
+              });
+          });  
  			</script>
 
   </div>

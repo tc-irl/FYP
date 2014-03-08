@@ -16,11 +16,11 @@
 
 	 		if(newMessage == "Email has been sent" || newMessage == "You have successfully registered!" || newMessage == "Your password has been reset!")
 	 		{
-	 		 	document.getElementById('message').innerHTML = "<div class='alert alert-success alert-dismissable'> <b>" + newMessage + "</b></div>";
+	 		 	document.getElementById('message').innerHTML = "<div class='alert alert-success alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b>" + newMessage + "</b></div>";
 	 		}
 	 		else
 	 		{
-	 			document.getElementById('message').innerHTML = "<div class='alert alert-danger alert-dismissable'> <b>" + newMessage + "</b></div>";
+	 			document.getElementById('message').innerHTML = "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b>" + newMessage + "</b></div>";
 	 		}
 	 	}
 	 </script>

@@ -35,17 +35,17 @@ if(isset($_POST['tag']))
         if(mysqli_num_rows($select_tag) == 1)
         {   
             $update_count = mysqli_query($db_connect, "Update acronymlist SET Tag_Count = Tag_Count + 1 where Acronym='$acr' AND Definition ='$def' AND Category='$cat'");
-            echo "<div class='alert alert-success alert-dismissable'> Thank you for tagging your acronym<b></b></div>";
+            echo "<div class='alert alert-success alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Thank you for tagging your acronym</b></div>";
         }
         else
         {
-            echo "<div class='alert alert-danger alert-dismissable'> Acronym, Definition and/or Category is incorrect <b></b></div>";
+            echo "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b>Acronym, Definition and/or Category is incorrect </b></div>";
         }
 
     }
     else
     {
-       echo "<div class='alert alert-danger alert-dismissable'><b>An error occured with the acronym, category and/or definition.</b></div>";
+       echo "<div class='alert alert-danger alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>An error occured with the acronym, category and/or definition.</b></div>";
     }
 }
 
@@ -93,7 +93,7 @@ if(isset($_POST['submit']))
                         $count++;
                     }
 
-                     $display_table = "<div class='alert alert-success alert-dismissable'><b>Successful Search!</b></div>
+                     $display_table = "<div class='alert alert-success alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Successful Search!</b></div>
                      <div class='table-responsive'>
                         <table class='table table-striped table-condensed table-bordered table-hover' id='table-id'>
                             <thead>
@@ -159,31 +159,31 @@ if(isset($_POST['submit']))
                  else
                  {
 
-                    echo "<div class='alert alert-warning alert-dismissable'><b>Sorry, No acronym found. You can suggest the meaning of this acronym
+                    echo "<div class='alert alert-warning alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Sorry, No acronym found. You can suggest the meaning of this acronym
                      <a href='suggest.php' class='alert-link'> by clicking here </a></b></div>";
                  }
             }
             else
             {
-                echo "<div class='alert alert-danger alert-dismissable'><b>Category does not exist! </b></div>";
+                echo "<div class='alert alert-danger alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Category does not exist! </b></div>";
             }
 
         }
         else
         {
-            echo "<div class='alert alert-danger alert-dismissable'><b>Category does not exist! This may have been cause by modifiying the URL</b></div>";
+            echo "<div class='alert alert-danger alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Category does not exist! This may have been cause by modifiying the URL</b></div>";
         }
     }
     else
     {
-        echo "<div class='alert alert-danger alert-dismissable'><b>Please Enter an Acronym!</b></div>";
+        echo "<div class='alert alert-danger alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b>Please Enter an Acronym!</b></div>";
     }
  }
 ?>  
 
 <html>
 <head>
-    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+   <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script> 
 </head>
 <body>
 <div class ="container">
@@ -198,24 +198,36 @@ if(isset($_POST['submit']))
 
      <br/>
 
-     <form class="form-horizontal" id="acronym-form" method="post" role="form">
+  <form class="form-horizontal" id="acronym-form" method="post" role="form">
 	 	<div class="form-group">
-	   	  <label for="inputAcronym" class="col-sm-3 control-label">Acronym</label>
+	   	  <label for="inputAcronym" class="col-sm-3 control-label"> Acronym </label>
 	   		<div class="col-sm-6">
-	     		<input type="text" name="acronym" class="form-control" id="inputAcronym" minLength="1" placeholder="Search..." required>
+	     		<input type="text" name="acronym" class="form-control" id="inputAcronym" minLength="1" maxLength="10" placeholder="Search..." required>
 	   		</div>
-	    </div>
+	   </div>
         <button type="submit" name="submit" class="btn btn-primary button-right"> Search </button>
 	</form>	
 </div>
 </div>
+
 <div id="table-pos">
  <?php
     echo "$display_table";
  ?>
 </div>
       <script>
-            $("#acronym-form").validate();
+          $(document).ready(function(){
+              $("#acronym-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                      $('.form-control-feedback').removeClass('glyphicon glyphicon-ok').addClass('glyphicon glyphicon-remove'); 
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                      $('.form-control-feedback').removeClass('glyphicon glyphicon-remove').addClass('glyphicon glyphicon-ok'); 
+                  }
+              });
+          });       
         </script>
 </body>
 </html>

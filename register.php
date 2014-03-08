@@ -73,7 +73,16 @@ if(isset($_POST['submit']))
 	</form>
 
 	 		<script>
- 				$("#register-form").validate();
+ 			$(document).ready(function(){
+              $("#register-form").validate({
+                  highlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                  },
+                  unhighlight: function (element) {
+                      $(element).closest('.form-group').removeClass('has-error').addClass('has-success'); 
+                  }
+              });
+          }); 
  			</script>
 </body>
 </html>
