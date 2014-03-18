@@ -1,0 +1,6 @@
+Source: http://www.techterms.com/definition/application
+
+An application, or application program, is a software program that runs on your computer. Web browsers, e-mail programs, word processors, games, and utilities are all applications. The word "application" is used because each program has a specific application for the user. For example, a word processor can help a student create a research paper, while a video game can prevent the student from getting the paper done.
+In contrast, system software consists of programs that run in the background, enabling applications to run. These programs include assemblers, compilers, file management tools, and the operating system itself. Applications are said to run on top of the system software, since the system software is made of of "low-level" programs. While system software is automatically installed with the operating system, you can choose which applications you want to install and run on your computer.
+Macintosh programs are typically called applications, while Windows programs are often referred to as executable files. This is why Mac programs use the .APP file extension, while Windows programs use the .EXE extension. Though they have different file extensions, Macintosh and Windows programs serve the same purpose and can both be called applications.
+

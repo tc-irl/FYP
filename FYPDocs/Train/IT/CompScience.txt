@@ -1,0 +1,4 @@
+Sources: http://undergrad.cs.umd.edu/what-computer-science  http://www.cs.bu.edu/AboutCS/WhatIsCS.pdf
+
+Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.
+The design and implementation of computing system hardware and software is replete with formidable challenges and fundamental problems that keep computer scientists busy. Computer Science is about building computers and writing computer programs, and more! 

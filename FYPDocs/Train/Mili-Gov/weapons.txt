@@ -1,0 +1,13 @@
+Pistol
+Handgun
+Grenade
+Machine Gun
+Sniper Rifle
+Bullet
+Claymore
+C4
+Mine
+Missiles
+Chemical Weapons
+
+

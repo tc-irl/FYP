@@ -1,0 +1,8 @@
+Source: http://www.techopedia.com/definition/190/artificial-intelligence-ai
+
+Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. Some of the activities computers with artificial intelligence are designed for include:
+
+Speech recognition
+Learning
+Planning
+Problem solving

@@ -1,0 +1,11 @@
+Source: http://netforbeginners.about.com/od/i/f/What-Is-The-Internet.htm
+
+The World Wide Web, or "Web" for short, is the very large subset of the Internet dedicated to broadcasting HTML pages. The Web is viewed by using free software called web browsers. Born in 1989, the Web is based on hypertext transfer protocol, the language which allows you and me to "jump" (hyperlink) to any other public web page. There are over 90 billion public web pages on the Web today, and over 300 billion private ('invisible') web pages.
+
+Examples of web browsers:
+
+Internet Explorer
+Google Chrome
+Mozilla FireFox
+Opera
+Safari

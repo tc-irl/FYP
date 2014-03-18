@@ -1,0 +1,3 @@
+Source: http://earsketch.gatech.edu/learning/anatomy-of-an-earsketch-project/what-is-programming
+
+Programming is the process of designing, writing, testing, debugging, and maintaining the source code of computer programs. This code can be written in a variety of computer programming languages. Some of these languages include Java, C, and Python. Computer code is a collection of typed words that the computer can clearly understand.

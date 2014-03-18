@@ -1,0 +1,3 @@
+Source: http://wordnetweb.princeton.edu/perl/webwn?s=military+operation
+
+A military operation is an activity by a military or naval force as a maneuver or campaign. For example, it was a joint operation of the navy and air force

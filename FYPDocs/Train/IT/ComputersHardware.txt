@@ -1,0 +1,56 @@
+Source: http://pcsupport.about.com/od/termshm/g/hardware.htm
+
+Hardware, in the computer world, refers to the physical components that make up a computer system.
+There are many different kinds of hardware that can be installed inside, and connected to the outside, of a computer.
+
+Here are some common individual computer hardware components that you'll often find inside a modern computer case:
+
+Motherboard
+Central Processing Unit (CPU)
+Random Access Memory (RAM)
+Power Supply
+Video Card
+Hard Drive (HDD)
+Solid-State Drive (SSD)
+Optical Drive (BD/DVD/CD drive)
+Card Reader (SD/SDHC, CF)
+Monitor
+Keyboard
+Mouse
+Battery Backup (UPS)
+Printer
+Speakers
+
+Sound Card
+Network Interface Card (NIC)
+Expansion Card (Firewire, USB, Thunderbolt, etc.)
+Hard Drive Controller Card
+Analog Modem
+Scanner
+Floppy Disk Drive
+Joystick
+Webcam
+Microphone
+Tape Drive
+Zip Drive
+
+Network hardware
+
+Digital Modem 
+Router
+Network Switch
+Access Point
+Repeater
+Bridge
+Print Server
+Firewall
+
+Auxiliary hardware
+
+Fan (CPU, GPU, Case, etc.)
+Heat Sink
+Data Cable
+Power Cable
+CMOS Battery
+Daughterboard
+In Microsoft Windows, hardware resources are managed by Device Manager.

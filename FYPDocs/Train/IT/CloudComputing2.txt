@@ -1,3 +1,5 @@
+Source: http://www.us-cert.gov/sites/default/files/publications/CloudComputingHuthCebula.pdf
+
 There are different types of clouds that you can subscribe to depending on your needs. As a home user or small business owner, you will most likely use public cloud services.
 Public Cloud - A public cloud can be accessed by any subscriber with an internet connection and access to the cloud space.
 Private Cloud - A private cloud is established for a specific group or organization and limits access to just that group.

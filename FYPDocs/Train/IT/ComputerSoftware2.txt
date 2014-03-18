@@ -1,0 +1,4 @@
+Sources: http://www.ask.com/question/what-is-computer-softwarer  http://www.wisegeek.com/what-is-computer-software.htm
+
+Computer software is a collection of computer programs that provide instructions telling a computer what to do and how to do it. Computer software are sets of programs, algorithms, procedures and its documentation.
+Programmers create either open source or proprietary computer software. The first type can be edited and adapted by users, while the second is protected and not intended to be edited by people outside the company that sells it. While open source programs are usually free, proprietary ones are licensed to distributors and must be paid for.

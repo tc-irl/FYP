@@ -1,0 +1,4 @@
+Source: http://searchsoa.techtarget.com/definition/Rich-Internet-Application-RIA
+
+A rich Internet application (RIA) is a Web application designed to deliver the same features and functions normally associated with deskop applications. RIAs generally split the processing across the Internet/network divide by locating the user interface and related activity and capability on the client side, and the data manipulation and operation on the application server side.
+An RIA normally runs inside a Web browser and usually does not require software installation on the client side to work. However, some RIAs may only work properly with one or more specific browsers.

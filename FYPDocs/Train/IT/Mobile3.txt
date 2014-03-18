@@ -1,0 +1,5 @@
+Sources: http://mobiledevices.about.com/od/glossary/g/What-Is-A-Mobile-Application.htm   http://sbmarketonline.com/category/internet-marketing/
+
+Mobile applications or mobile apps or just app are applications developed for small handheld devices, such as mobile phones, smartphones, PDAs and so on. Mobile apps can come preloaded on the handheld device as well as can be downloaded by users from app stores or the Internet.
+You can find mobile apps on both feature phones and smartphones. The most popular smartphone platforms that support mobile apps are Windows Mobile, Android, Symbian, Java ME and Palm. 
+Apps are usually available through application distribution platforms, which began appearing in 2008 and are typically operated by the owner of the mobile operating system, such as the Apple App Store, Google Play, Windows Phone Store, and BlackBerry App World.

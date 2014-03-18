@@ -1,0 +1,13 @@
+Sources: http://www.webopedia.com/TERM/M/Microsoft_Windows.html  http://www.computerhope.com/os.htm
+
+A family of operating systems for personal computers. Windows dominates the personal computer world, running, by some estimates, on 90% of all personal computers. The remaining 10% are mostly Macintosh computers. Like the Macintosh operating environment, Windows provides a graphical user interface (GUI), virtual memory management, multitasking, and support for many peripheral devices.
+
+UNIX is an operating system which was first developed in the 1960's at AT&T's Bell Labs research center by Dennis Ritchie and others. It is a stable, multi-user, multi-tasking system for servers, desktops and laptops.
+UNIX systems also have a graphical user interface (GUI) similar to Microsoft Windows which provides an easy to use environment. However, knowledge of UNIX is required for operations which aren't covered by a graphical program, or for when there is no windows interface available, for example, in a telnet session.
+
+Other Operating Systems include:
+
+Ubuntu
+Linux
+Mac OS
+MS-DOS

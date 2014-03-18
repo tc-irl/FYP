@@ -13,6 +13,7 @@ are
 aren't
 as
 at
+bad
 be
 because
 been
@@ -41,6 +42,8 @@ few
 for
 from
 further
+go
+good
 had
 hadn't
 has

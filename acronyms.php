@@ -1,6 +1,5 @@
 <?php
 
-
 include("header.php");
 include ("db.class.php");
 
@@ -125,9 +124,9 @@ if(isset($_POST['submit']))
                                 . "<td>" . $acronym . "</td>"
                                 . "<td>" . $definition. "</td>"
                                 . "<td>" . $category . "</td>"
-                                . "<td><div class='progress'><div class='progress-bar progress-bar-success' style='width:" . $percentage[$i]. "%'> 
-                                <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' style='width: " . (100 - $percentage[$i]) . "%'>
-                                <span class='sr-only'>50% Unlikely </span></div></td><div class='modal fade' id='myModal$i'>
+                                . "<td><div class='progress'><div class='progress-bar progress-bar-success' data-title=". round($percentage[$i],2) . '%' . " data-placement='left' data-trigger='hover' style='width:" . $percentage[$i]. "%'> 
+                                <span class='sr-only'></span></div><div class='progress-bar progress-bar-danger' data-title=" . round((100 - $percentage[$i]),2) . '%' . " data-placement='right' data-trigger='hover' style='width: " . (100 - $percentage[$i]) . "%'>
+                                <span class='sr-only'></span></div></td><div class='modal fade' id='myModal$i'>
                                                       <div class='modal-dialog'>
                                                         <div class='modal-content'>
                                                           <div class='modal-header'>
@@ -227,7 +226,12 @@ if(isset($_POST['submit']))
                       $('.form-control-feedback').removeClass('glyphicon glyphicon-remove').addClass('glyphicon glyphicon-ok'); 
                   }
               });
+
+              $(".progress-bar").tooltip();
+
           });       
+
+
         </script>
 </body>
 </html>

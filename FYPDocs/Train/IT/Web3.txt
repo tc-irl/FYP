@@ -1,0 +1,30 @@
+Source: http://www.techopedia.com/definition/23889/web-development
+
+Web development is the coding or programming that enables website functionality, per the owner's requirements. It mainly deals with the non-design aspect of building websites, which includes coding and writing markup. 
+
+Web development ranges from creating plain text pages to complex Web-based applications, social network applications and electronic business applications.
+
+The Web development hierarchy is as follows:
+
+Client-side coding
+Server-side coding
+Database technology
+
+Some Web development languages:
+
+HTML
+CSS
+JavaScript
+MySQL
+PHP
+JQuery
+Angular JS
+Meteor JS
+Java
+Java Scriptlets
+Python
+C++
+ASP
+Ruby on Rails
+
+

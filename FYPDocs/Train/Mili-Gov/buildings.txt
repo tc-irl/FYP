@@ -1,0 +1,84 @@
+Source: http://www.defence-structures.com/glossary.htm
+
+Barracks - Buildings for military accommodation.
+
+Barrier - any physical factor which reduces the ability of vehicles or personnel to enter into our protected areas. Berms, Ditches, Steel or Concrete Structures for examples.
+
+Blast Wall - Many weapons produce a blast, a wave of high pressure. This can break windows, providing lethal slivers of glass. It can destroy the cladding on a wall, and the cladding can fly around lethally. It can demolish whole walls, which can fall on occupants. It can knock over whole buildings and cause collapse of multi storey concrete and masonry buildings. The best protection is to keep the source of the blast as far away from our assets as possible, preferably in another continent. This is not always possible. Using bigger perimeters, with cover from view and barriers and gates help keep away some blast weapons. Having a sterile area inside the boundaries can help. Defence structure steel buildings, strongly framed in steel with filmed glass in strong frames, frangible cladding and so on can mitigate the effects of blast. But there are times when there is no option but to try to reduce the blast with Blast Walls. These are walls made from steel framed concrete panels, with an anti spall skin behind the concrete. The panels are angled up onto steel frames. These will resist Blast, and direct it upwards, reducing lethality. Read more about our blast walls here.
+
+Bunker - A safe place for troops to live in and work from. It will have Mortar Roof with Det Screen, Rocket Screens or Rocket Walls, Doors, perhaps Embrasures. Read more our about bunkers here.
+
+Counter Terrorism - the action of security forces and any other citizens to prevent terrorism and apprehend terrorists, preferably before any atrocity takes place.
+
+Cover from View (CFV) - An arrangement of fences at the perimeter or in other locations used to prevent observation of our security forces' personnel or vehicles or fixed assets or routines in our bases or posts. Read more our about cover from view here.
+
+Critical Infrastructure - Civil or Military facilities and their surroundings important for the continuity of normal life as we choose to live it. Read How to Make Buildings Robust.
+
+Defence Structures - Buildings of other structures designed and constructed to protect our personnel and assets from attack. The type of structure depends on the threat, which may be from a variety of weapons, or from optical or electronic surveillance.
+Such structures may also provide all types of administrative or storage or workshop or command and control facilities.
+
+Embrasure - This is the hole in the wall through which an observer looks. It should enable the man to see his arc without moving his head much, in other words, the V shape taking up the thickness of the wall should be on the outer face, not inside. Where the wall is thinner, it should be reinforced with a steel backing plate. It may have Macrolon or steel shutters. It may have a shelf for binoculars. From the outside, the dark shadow in the hole is clearly visible and this should be camouflaged with disruptive pattern dark paint. If it is possible to see another embrasure through the OP or Sangar from outside, the observer will be strongly silhouetted and so a curtain must be placed stopping people from seeing straight through.
+
+Explosion - A rapid chemical reaction creating large amounts of heat in a short time, thus expanding rapidly at high pressure, producing a shock wave, blast and fragments.
+
+Explosive - The chemical or mix of chemicals that can cause an explosion. High explosive has extremely fast action propagating by a shockwave travelling through it. Low explosive is slower, in effect burning very quickly. Explosives can be solids; or plastic; or a mixture of liquids.
+
+Explosive Device - A construction containing explosive with an initiation system. The container may be intended to fragment on detonation; or maybe just a drum to contain the chemicals. Home-made explosive devices are 'improvised explosive devices', IED.
+
+Force protection (FP) - Any measure or combination of measures used to reduce the risk of injury to our security forces, or damage to their assets.
+
+Forward Operating Base (FOB) - A forward operating base is a secured position away from a main base, which is able to provide protection for our forces, and enable them to opearte effectively. The FOB will provide appropriate level of logistic support and may have: Fences and Cover From View Screens; Bunds; Barriers; Road Barriers and Chicanes. Vehicle Check Points. Gates. Facilities with Mortar Roofs and Rocket Screens or Rocket Walls; Sangars. Read more our about forward operating base here.
+
+Fragmentation - The bits of material shot about at high velocity following an explosion. These may be a part of the weapon casing, deliberately intended to fragment, called primary fragments; or they may be material at the target, building components or rubble, scattered by the explosion, called secondary fragments. Secondary fragments may stay attached (constrained), or fly freely, (unconstrained).
+
+Gates - Gates vary: lifting barriers; normal soft skinned gates, which can be clad as an extension to the cover-from-view screen, strengthened gates which can resist small arms or projectiles; blast and vehicle bomb resisting gates. Gates are designed for the specific location and threat. They are most effective if used in pairs as lock gates; or in a labyrinth. They are best if covered by Sangars. They may be used in combination with blast walls or dead stop barriers or both. Read more our about gates here.
+
+Hostile Vehicle - a vehicle being used for an attack on our security.
+
+Hostile Vehicle Mitigation - Implementation of methods to reduce the threat from Hostile Vehicles.
+
+IED - stands for Improvised Explosive Device. This refers to home made explosives frequently utilised by terrorists.
+
+Impulse - The pressure from a blast multiplied by the duration of the pressure, (or the area under a pressure/time graph).
+
+Membrane Bunds or Membrane Walls - These are cellular membrane formers which can be filled with sand or stone or earth, for a variety of purposes: they can be used to form cost effective bunds able to stop all vehicles; and rocket walls for structures.
+
+Mortar Roof - A mortar round is a projectile which is fired with a very high trajectory and drops almost vertically onto its target before exploding. It has a fuse which is usually detonated on impact, sometimes with a time delay. If it lands on the ground it provides blast pressure and shoots off shrapnel all round to a lethal radius of about 40 metres. If it lands on a soft building, the effect can be worse: the roofing material is splintered and adds to the shrapnel, and the enclosure in the building can make the effect more lethal; or the structure itself can collapse, killing the occupants. A Mortar Roof has a steel skin at a standoff, which detonates the round. The shrapnel still shoots on downwards, and this is stopped by a concrete skin underneath. Under the concrete skin is a metal anti spall skin, which largely contains any pulverised concrete fragments from shooting downwards. The assembly is carried on steel frames, which will not be destroyed by the blast pressure. Underneath this Mortar Roof is the normal soft-skinned building, which will probably stop any remaining fragments as well as provide the climatic enclosure. Read more our about mortar roof here.
+
+Observation Post (OP) - A room with a view. This room can be within a building; or on top of a building; or free standing, on the ground or on a tower. The essential point of the OP is that it provides good observation over the area to be observed. To cover the perimeter of an installation, the edge of the installation needs to be in a series of straight lines with an OP at each corner; and perhaps more between. It may seem obvious that these are better if higher, but height adds blind spots underneath. OPs should have interlocking arcs. Read more our about observation post here.
+
+Penetration - The distance inside a barrier that the payload of a vehicle can travel into the protected area before being immobilised by the barrier. Penetration can also mean the distance a fragment can travel into a target if it does not go right through it.
+
+Protective Design - Design taking into account the need to protect facilities and their occupants.
+
+Resilience - the ability of our facilities and our organisations and systems to survive attacks and accidents with the minimum of disruption and the maximum of continuity. Read How to Make Buildings Robust.
+
+Road Barriers - Dead Stop Barriers: A popular means of attack is to use a vehicle as a bomb. This is driven at speed towards our security enclosure. Normal bollards may damage the truck, but it will still penetrate into our sterile area. A barrier stops a truck dead in 2 metres or so, demolishing it and its driver and effectively preventing penetration. Read more our about road barriers here.
+
+Road Barriers - Surface Mounted Road Barriers: As implied by the name, these barriers are simply placed on the ground, and linked together. They will stop any vehicle, and, as they have no foundation, will move under impact. They should be quick and easy to move, place, and repair after any impact. The best of these are Defence-Structures Dragon's Teeth. Read more our about road barriers here.
+
+Rockets used as Artillery or Mortars - Millions of Anti Tank Rockets are strewn around the world. They are designed to be aimed or guided to their targets. They can be launched from fairly light, mobile tubes. They come in a variety of sizes from 60 mm to 127 mm. They are usually of the HESH (High Explosive Squash Head) variety and make a big bang. Because of the range and ease of launch and availability, they can be used as artillery or mortars: that is they are shot off into the air in the vague direction of Security Forces, with little aim or guidance. It is sad that Civilians from quite far away are the most frequent casualties.
+
+Rocket screens and mortar roofs can provide substantial force protection against such weapons, though nothing can provide 100% safety. Mortar Roofs may need some extra bracing against the horizontal component of low trajectory large calibre rockets.
+
+Rocket Screen - A rocket or rocket propelled grenade (RPG) is a projectile which travel in a low trajectory and which explodes on impact, producing shrapnel and blast. If a rocket hits a soft skinned building the effect can be worse: the wall itself is splintered and adds to the shrapnel, the blast blows in windows which become lethal, and the blast can blow down the wall or the entire structure killing the occupants. A rocket screen has a steel skin at a standoff, detonating the round before it hits the building. The shrapnel usually carries on towards the structure and is stopped by a concrete wall. Behind the concrete wall is an anti spall skin which prevents or reduces penetration by chunks of concrete pulverised by the shrapnel. This whole assembly is supported on a steel frame which resists the blast. Behind this is the normal soft skinned building which should stop any remaining fragments and provide the climatic enclosure. Read more our about rocket screens here.
+
+Rocket Walls - Sand or Earth or Stone filled Membrane walls which are strong enough in themselves to protect from rocket attack.
+
+Sangars - During the Afghan wars of the 'Great Game' tribesmen would hide in the crevices of the rocky mountainsides to observe and to shoot at the British soldiers. These would shoot back, so the positions would be fortified with slabs of rock, embrasures, roofs, camouflage. The Afghan word for these tiny little forts is Sangar. Things have not changed much, and a Sangar is an OP which is protected against incoming ordnance and the weather, and from which weapons as well as binoculars could be used. A Sangar is a fortified OP. Often a Sangar will be equipped with a Mortar Roof, a Rocket Screen and Cover From View.
+
+Security - the state of well being and safety for our people and our assets.
+
+Security by Design - Ensuring that all aspects of security are considered during the planning and design and excecution of all our facilities and systems. Read How to Make Buildings Robust/Structures Resilient.
+
+Shrapnel - High energy fragments flying around after an explosion, usually the deliberately designed casing of the explosive device.
+
+Spall Skin - When concrete is hit by a high speed fragment, it shatters locally, and often a scab is detached on the far side of the slab which itself becomes a projectile. A steel skin, even relatively thin, can slow or stop this scab. This is a spall skin (or anti-spall skin, or anti-spalling skin).
+
+Terrorism - Acts of individuals or groups prepared to use violence against anything or anyone they consider a 'target', civil or military, human or material, in the pursuance of ideological or religious or politcal or commercial aims.
+
+Terrorist - anyone who takes any part in terrorism; usually weak sad people who have been brainwashed by other individuals (who manage to be a long way away when the bomb goes off).
+
+VBIED - Vehicle borne improvised explosive design (IED) (Car Bomb or Truck Bomb for examples).
+
+Vehicle Check Point (VCP) - It is often necessary to stop vehicles, for identification or search. These give outstanding opportunities to catch villains and prevent crimes, but also to annoy the normal and law abiding populace, to shoot innocents, to cause traffic jams, and to expose the security personnel to risk. A proper VCP starts to resemble an efficient customs post, with many lanes, clear diversions into separate bays, cover from view for the search process, all covered by OPs or Sangars. They will have crew rooms, a rapid response Guard Room, climatic enclosure, Mortar Roofs and Rocket Screens.

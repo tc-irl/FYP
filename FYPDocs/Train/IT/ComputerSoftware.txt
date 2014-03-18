@@ -1,0 +1,22 @@
+Source: http://www.computerhope.com/jargon/s/software.htm
+
+Sometimes abbreviated as S/W, software is a collection of instructions that enable a user to interact with the computer or have the computer perform specific tasks for them. Without software, the computer would be useless. For example, without your Internet browser software you would be unable to browse the Internet or read this page and without a software operating system the browser would not be able to run on your computer. In the picture to the right, is an example of what a Microsoft Excel software box looks like and is another example of a software program.
+
+Software examples: 
+
+Antivirus (AVG, AVAST)
+Audio / Music program (iTunes)
+Database (Access)
+Device drivers
+E-mail (Outlook)
+Game (World of Warcraft)
+Internet browser (Firefox)
+Movie player (VLC)
+Operating system (Windows XP)
+Photo / Graphics program (CorelDRAW)
+Presentation (Powerpoint)
+Programming language (Perl)
+Simulation (Flight simulator)
+Spreadsheet (Excel)
+Utility (Compression, Disk Cleanup, Encryption, Registry cleaner, Screensaver)
+Word processor (Word)

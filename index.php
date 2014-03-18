@@ -144,7 +144,8 @@ function getCategory()
 function cleanOldTxt($oldtxt)
 {
   $oldtxt = str_replace(array('.', ',','-','/','(',')','[',']','\\','!','&','"','*','_'), '' , $oldtxt); // removing full stops, commas, dashes etc...
-  //$oldtxt = str_replace(array("\n","\r"), " ", $oldtxt); // removing full stops, commas, dashes etc...
+  $oldtxt = str_replace(array("\n","\r"), " ", $oldtxt); // removing full stops, commas, dashes etc...
+  $oldtxt = preg_replace('/\s\s+/', ' ', $oldtxt);
 
   return $oldtxt;
 }
@@ -309,22 +310,18 @@ if(in_array($category, $categories))
 
                     while($row2 = mysqli_fetch_array($query2[$qCount2]))
                     { 
+
                         $acronymB = $row2['Acronym'];
-                        $acs2[$j] = $acronymB;
-
                         $definitionB = $row2['Definition'];
-                        $defs2[$j] = $definitionB;
-
                         $categoryB = $row2['Category'];
-                        $cats2[$j] = $categoryB;
 
-                        $display_Other = $display_Other . "<tr id='$j' data-toggle='modal' data-target='#myModal$j'>"
+                        @$display_Other = $display_Other . "<tr id='$j' data-toggle='modal' data-target='#myModal2$j'>"
                         . "<td>" . checkMatch($acronymB, $a) . " " . $acronymB . "</td>"
-                        . "<td>" . $definitionB. "</td>"
+                        . "<td>" . $definitionB . "</td>"
                         . "<td>" . $categoryB . "</td>"
-                        . "<td><div class='progress'><div class='progress-bar progress-bar-success' style='width:" . @$percentage2[$j] . "%'> 
-                        <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' style='width: " . (100 - @$percentage2[$j]) . "%'>
-                        <span class='sr-only'>50% Unlikely </span></div></td><div class='modal fade' id='myModal$j'>
+                        . "<td><div class='progress'><div class='progress-bar progress-bar-success' data-title=". round($percentage2[$j],2) . '%' . " data-placement='left' data-trigger='hover' style='width:" . $percentage2[$j] . "%'> 
+                        <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' data-title=" . round((100 - $percentage2[$j]),2) . '%' . " data-placement='right' data-trigger='hover' style='width: " . (100 - $percentage2[$j]) . "%'>
+                        <span class='sr-only'>50% Unlikely </span></div></td><div class='modal fade' id='myModal2$j'>
                                               <div class='modal-dialog'>
                                                 <div class='modal-content'>
                                                   <div class='modal-header'>
@@ -332,13 +329,13 @@ if(in_array($category, $categories))
                                                   </div>
                                                   <div class='modal-body'>
                                                     <p><b> Is this the acronym you were searching for:  </b></p>
-                                                    <p> Acronym: $acs2[$j] </p>
-                                                    <p> Definition: $defs2[$j] </p>
-                                                    <p> Category: $cats2[$j] </p>
+                                                    <p> Acronym:" . $acronymB . " </p>
+                                                    <p> Definition:". $definitionB . " </p>
+                                                    <p> Category: " . $categoryB . "  </p>
                                                     <p> If so please click tag, else click close to return. </p>
                                                   </div>
                                                   <div class='modal-footer'>
-                                                    <form method='post' action='index.php?category=$cats2[$j]&definition=$defs2[$j]&acronym=$acs2[$j]'> 
+                                                    <form method='post' action='index.php?category=$categoryB&definition=$definitionB&acronym=$acronymB]'> 
                                                     <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
                                                     <button type='submit' name='tag' class='btn btn-primary'>Tag</button>
                                                     </form>
@@ -365,25 +362,19 @@ if(in_array($category, $categories))
               $count++;
            }
 
-
-
             while($row = mysqli_fetch_array($query[$qCount]))
             {
+
                 $acronym = $row['Acronym'];
-                $acs[$i] = $acronym;
-
                 $definition = $row['Definition'];
-                $defs[$i] = $definition;
-
                 $category = $row['Category'];
-                $cats[$i] = $category;
 
-                $display_Main = $display_Main . "<tr id='$i' data-toggle='modal' data-target='#myModal$i'>"
+                @$display_Main = $display_Main . "<tr id='$i' data-toggle='modal' data-target='#myModal$i'>"
                 . "<td>" . $acronym . "</td>"
                 . "<td>" . $definition . "</td>"
                 . "<td>" . $category . "</td>"
-                . "<td><div class='progress'><div class='progress-bar progress-bar-success' style='width:" . $percentage[$i] . "%'> 
-                <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' style='width: " . (100 - $percentage[$i]) . "%'>
+                . "<td><div class='progress'><div class='progress-bar progress-bar-success' data-title=". round($percentage[$i],2) . '%' . " data-placement='left' data-trigger='hover' style='width:" . $percentage[$i] . "%'> 
+                <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' data-title=" . round((100 - $percentage[$i]),2) . '%' . " data-placement='right' data-trigger='hover' style='width: " . (100 - $percentage[$i]) . "%'>
                 <span class='sr-only'>50% Unlikely </span></div></td><div class='modal fade' id='myModal$i'>
                                       <div class='modal-dialog'>
                                         <div class='modal-content'>
@@ -392,13 +383,13 @@ if(in_array($category, $categories))
                                           </div>
                                           <div class='modal-body'>
                                             <p><b> Is this the acronym you were searching for:  </b></p>
-                                            <p> Acronym: $acs[$i] </p>
-                                            <p> Definition: $defs[$i] </p>
-                                            <p> Category: $cats[$i] </p>
+                                            <p> Acronym:" . $acronym. " </p>
+                                            <p> Definition:" . $definition . "  </p>
+                                            <p> Category: " . $category . "  </p>
                                             <p> If so please click tag, else click close to return. </p>
                                           </div>
                                           <div class='modal-footer'>
-                                            <form method='post' action='index.php?category=$cats[$i]&definition=$defs[$i]&acronym=$acs[$i]'> 
+                                            <form method='post' action='index.php?category=$category&definition=$definition&acronym=$acronym'> 
                                             <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
                                             <button type='submit' name='tag' class='btn btn-primary'>Tag</button>
                                             </form>
@@ -410,24 +401,20 @@ if(in_array($category, $categories))
                 $i++;
             } 
 
-            while(@$row2 = mysqli_fetch_array($query2[$qCount2]))
-            {
-                $acronymB = $row2['Acronym'];
-                $acs2[$j] = $acronymB;
+            while(@$row3 = mysqli_fetch_array($query2[$qCount2]))
+            { 
 
-                $definitionB = $row2['Definition'];
-                $defs2[$j] = $definitionB;
+                $acronymC = $row3['Acronym'];
+                $definitionC = $row3['Definition'];
+                $categoryC = $row3['Category'];
 
-                $categoryB = $row2['Category'];
-                $cats2[$j] = $categoryB;
-
-                $display_Other = $display_Other . "<tr id='$j' data-toggle='modal' data-target='#myModal$j'>"
-                . "<td>" . checkMatch($acronymB, $a) . $acronymB . "</td>"
-                . "<td>" . $definitionB. "</td>"
-                . "<td>" . $categoryB . "</td>"
-                . "<td><div class='progress'><div class='progress-bar progress-bar-success' style='width:" . $percentage2[$j] . "%'> 
-                <span class='sr-only'>50% Likely </span></div><div class='progress-bar progress-bar-danger' style='width: " . (100 - $percentage2[$j]) . "%'>
-                <span class='sr-only'>50% Unlikely </span></div></td><div class='modal fade' id='myModal$j'>
+                @$display_Other = $display_Other . "<tr id='$j' data-toggle='modal' data-target='#myModal3$j'>"
+                . "<td>" . checkMatch($acronymC, $a) . $acronymC . "</td>"
+                . "<td>" . $definitionC. "</td>"
+                . "<td>" . $categoryC . "</td>"
+                . "<td><div class='progress'><div class='progress-bar progress-bar-success' data-title=". round($percentage2[$j],2) . '%' . " data-placement='left' data-trigger='hover' style='width:" . $percentage2[$j] . "%'> 
+                <span class='sr-only'></span></div><div class='progress-bar progress-bar-danger' data-title=" . round((100 - $percentage2[$j]),2) . '%' . " data-placement='right' data-trigger='hover' style='width: " . (100 - $percentage2[$j]) . "%'>
+                <span class='sr-only'></span></div></td><div class='modal fade' id='myModal3$j'>
                                       <div class='modal-dialog'>
                                         <div class='modal-content'>
                                           <div class='modal-header'>
@@ -435,13 +422,13 @@ if(in_array($category, $categories))
                                           </div>
                                           <div class='modal-body'>
                                             <p><b> Is this the acronym you were searching for:  </b></p>
-                                            <p> Acronym: $acs2[$j] </p>
-                                            <p> Definition: $defs2[$j] </p>
-                                            <p> Category: $cats2[$j] </p>
+                                            <p> Acronym: " . $acronymC . " </p>
+                                            <p> Definition: " . $definitionC . " </p>
+                                            <p> Category:" . $categoryC . "</p>
                                             <p> If so please click tag, else click close to return. </p>
                                           </div>
                                           <div class='modal-footer'>
-                                            <form method='post' action='index.php?category=$cats2[$j]&definition=$defs2[$j]&acronym=$acs2[$j]'> 
+                                            <form method='post' action='index.php?category=$categoryC&definition=$definitionC&acronym=$acronymC'> 
                                             <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
                                             <button type='submit' name='tag' class='btn btn-primary'>Tag</button>
                                             </form>
@@ -471,6 +458,7 @@ function cleanUpFile($file_info,$tags)
 
     $file_info = str_replace(array(',','.','-','/','(',')','[',']','!','&','"','*','_'), '' , $file_info); // removing full stops, commas, dashes etc...
     $file_info = str_replace(array("\n","\r"), " ", $file_info); // removing full stops, commas, dashes etc...
+    $file_info = preg_replace('/\s\s+/', ' ', $file_info);
 
     if($file_info[0] !== " ")
     {
@@ -531,8 +519,8 @@ function classifyDocument($clean_file)
 </head>
 
 <body>
-<div class ="container">
 <div class="message" id="message"></div>
+<div class ="container">
 	<div class="jumbotron">
      <ul class="nav nav-tabs nav-justified" id="myTab">
             <li <?=updateMenu("/index.php?category=None")?>><a href="?category=None"> None </a></li>
@@ -543,6 +531,12 @@ function classifyDocument($clean_file)
     </ul>
 
   <script>
+$(document).ready(function()
+{
+  $(".progress-bar").tooltip();
+});       
+
+
     Dropzone.options.myDropzone = {
     maxFiles: 1,
     autoProcessQueue: false,
@@ -577,7 +571,7 @@ function classifyDocument($clean_file)
 
       this.on("maxfilesexceeded", function(file)
       {
-          document.getElementById('message').innerHTML = "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button> <b> Max number of files: 1 </b></div>";
+          document.getElementById('message').innerHTML = "<div class='alert alert-danger alert-dismissable'> <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><b> Max number of files: 1</b></div>";
           this.removeFile(file);
       });
     }
@@ -599,6 +593,7 @@ function classifyDocument($clean_file)
 </div>
 <div id="table-pos">
   <?php
+
    echo "$display_Main";
    echo "<br/>";
    echo "$display_Other";

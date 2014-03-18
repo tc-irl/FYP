@@ -1,0 +1,3 @@
+Source: http://www.gcflearnfree.org/computerbasics/2
+
+An operating system is the most important software that runs on a computer. It manages the computer's memory, processes, and all of its software and hardware. It also allows you to communicate with the computer. Once the operating system has booted, it manages all of the software and hardware on the computer. Most of the time, there are many different programs running at the same time, and they all need to access your computer's Central Processing Unit (CPU), memory, and storage. The operating system coordinates all of this to make sure that each program gets what it needs.

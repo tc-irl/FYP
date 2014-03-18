@@ -1,0 +1,11 @@
+Sources: http://www.starcount.com/profile/4f47090b18065b31c6000507/meteor  http://en.wikipedia.org/wiki/O2_(Ireland)   http://en.wikipedia.org/wiki/Vodafone_Ireland
+
+Meteor Mobile Communications Limited, a part of eircom, is a GSM and UMTS mobile telecommunications company in Ireland.
+Meteor issue new numbers with the prefix code 085. Since the introduction of full mobile number portability in Ireland, access codes have become less relevant as mobile telephone users may now retain their mobile telephone numbers when moving between mobile network operators. As a result Meteor customers can now have numbers starting with the codes 083, 085, 086, 087, or 089.
+
+Telefónica Ireland is a broadband and telecommunications provider in Ireland. The company is marketed and trades as O2.
+O2 is the second largest telecommunications provider in Ireland. The company's STD prefix is 086, but following the introduction of full number portability, some O2 Irish mobile numbers now feature prefixes starting 087, 085, 089 or 083, as customers may switch provider but keep their old phone number.
+
+Vodafone Ireland Limited, a wholly owned subsidiary of the Vodafone Group, is the largest mobile phone operator in Ireland in terms of active subscribers. It was created when the Vodafone Group bought Eircell the mobile arm of Telecom Éireann.
+The company operates a full range of voice, SMS, MMS and mobile data services using a 2G GSM 900/1800 network and a 3G UMTS 2100 network capable of offering a range of broadband services.
+

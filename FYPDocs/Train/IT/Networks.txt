@@ -1,0 +1,14 @@
+Source: http://www.webopedia.com/TERM/N/network.html
+
+A network is a group of two or more computer systems linked together. There are many types of computer networks, including:
+Local-area network (LAN) : The computers are geographically close together (that is, in the same building).
+Wide-area network (WAN) : The computers are farther apart and are connected by telephone lines or radio waves.
+Campus-area network (CAN): The computers are within a limited geographic area, such as a campus or military base.
+Metropolitan-area network (MAN): A data network designed for a town or city.
+Home-area network (HANs): A network contained within a user's home that connects a person's digital devices.
+
+In addition to these types, the following characteristics are also used to categorize different types of networks:
+topology : The geometric arrangement of a computer system. Common topologies include a bus, star, and ring. 
+protocol : The protocol defines a common set of rules and signals that computers on the network use to communicate. One of the most popular protocols for LAN is called Ethernet. Another popular LAN protocol for PCs is the IBM token-ring network.
+architecture : Networks can be broadly classified as using either a peer-to-peer or client/server architecture.
+Computers on a network are sometimes called nodes. Computers and devices that allocate resources for a network are called servers.

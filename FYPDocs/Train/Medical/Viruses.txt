@@ -1,0 +1,9 @@
+Source: http://en.wikipedia.org/wiki/Virus  http://chemistry.about.com/od/lecturenoteslab1/a/Dna-Versus-Rna.htm
+
+A virus is a small infectious agent that replicates only inside the living cells of other organisms. Viruses can infect all types of life forms, from animals and plants to bacteria and archaea. 
+DNA stands for deoxyribonucleic acid, while RNA is ribonucleic acid. Although DNA and RNA both carry genetic information, there are quite a few differences between them
+DNA contains the sugar deoxyribose, while RNA contains the sugar ribose. The only difference between ribose and deoxyribose is that ribose has one more -OH group than deoxyribose, which has -H attached to the second (2') carbon in the ring.
+DNA is a double stranded molecule while RNA is a single stranded molecule.
+DNA is stable under alkaline conditions while RNA is not stable.
+DNA and RNA perform different functions in humans. DNA is responsible for storing and transferring genetic information while RNA directly codes for amino acids and as acts as a messenger between DNA and ribosomes to make proteins.
+DNA and RNA base pairing is slightly different, since DNA uses the bases adenine, thymine, cytosine, and guanine; RNA uses adenine, uracil, cytosine, and guanine. Uracil differs from thymine in that it lacks a methyl group on its ring.

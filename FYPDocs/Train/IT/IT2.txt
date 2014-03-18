@@ -1,0 +1,3 @@
+Source: http://searchdatacenter.techtarget.com/definition/IT
+
+IT (information technology) is a term that encompasses all forms of technology used to create, store, exchange, and use information in its various forms (business data, voice conversations, still images, motion pictures, multimedia presentations, and other forms, including those not yet conceived). It's a term for including both telephony and computer technology.
