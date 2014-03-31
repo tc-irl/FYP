@@ -52,7 +52,14 @@ th
 text-align: center;
 color: #428bca;
 }
+
 td
 {
 text-align: center;
+}
+
+.message
+{
+	margin-right: 115px;
+	margin-left: 90px;
 }

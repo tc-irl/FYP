@@ -1,3 +1,13 @@
+<!--
+
+Author: Tony Cullen (C10385847)
+
+Project: Acronym Identification System
+Page: Tagger class -> Tags each of the words found into it's suitable category e.g. noun, adverb etc.. 
+This class was completed using the tutorial at http://phpir.com/part-of-speech-tagging
+
+-->
+
 <?php
 
 	/**
@@ -11,14 +21,14 @@
 
         function __construct($file)
         {
-            $file_info = file_get_contents($file);
-            $tags = explode(" ", $file_info);
-            $this->dict[strtolower(array_shift($tags))] = $tags;
+            $file_info = file_get_contents($file); // read in the file
+            $tags = explode(" ", $file_info); // split the file into an array of words, splitting by spaces
+            $this->dict[strtolower(array_shift($tags))] = $tags; // convert words to lower
         }
 
         function tag($text)
         {
-            preg_match_all("/[\w\d\.]+/", $text, $matches);
+            preg_match_all("/[\w\d\.]+/", $text, $matches); // \w means any word character, \d means any digit \. means any single character and + means multiple. For more information see: http://ie1.php.net/preg_match
             $nouns = array('NN', 'NNS');
             
             $return = array();
