@@ -70,11 +70,13 @@ else if(!isset($_SESSION['username']))
 // Updating the navigation bar, highlighting the current tab of the page you're on. 
 function updateMenu($navLink)
 {
-    // checking if the URI matches the passed in navigation link and if so, return class = active which highlights the tab on the navigation bar. 
+    // checking if the URI matches the passed in navigation link and if so, 
+	// return class = active which highlights the tab on the navigation bar. 
     if (URI == $navLink)
     		return 'class="active"';
 
-    // checking if the navigation link is a substring of the URI and if so, return class = active which highlights the tab on the navigation bar. 
+    // checking if the navigation link is a substring of the URI and if so, return class = active which highlights 
+	// the tab on the navigation bar. 
     // an example of this is index.php?category=none
 
     if (strpos(URI, $navLink) !== false)
@@ -136,9 +138,10 @@ Acronym Identification System, AIS, Initialisms, Acronym ID">
 <body>
 <h1 style="text-align: center; font-size:400%;"> Acronym Identification System </h1> <!-- Title -->
 <div class="container"> <!-- Twitter bootstrap container for common fixed-width layout -->
-<div class="navbar navbar-default" role="navigation"> <!-- Twitter bootstrap navigation bar -->
+	<div class="navbar navbar-default" role="navigation"> <!-- Twitter bootstrap navigation bar -->
           <ul class="nav navbar-nav"> <!-- Tabs on the navigation bar, starting from the left -->
-            <li <?=updateMenu("/index.php")?>><a href="index.php"><span class="glyphicon glyphicon-home"> Home </span></a></li>
+		  <!-- List of elements which go on the navigation bar. updateMenu() is used highlight the active class -->
+            <li <?=updateMenu("/index.php")?>><a href="index.php"><span class="glyphicon glyphicon-home"> Home </span></a></li> 
             <li <?=updateMenu("/acronyms.php")?>><a href="acronyms.php"><span class="glyphicon glyphicon-list"> Acronyms </span></a></li>
             <li <?=updateMenu("/suggest.php")?>><a href="suggest.php"><span class="glyphicon glyphicon-tag"> Suggest </span></a></li>
             <li <?=updateMenu("/about.php")?>><a href="about.php"><span class="glyphicon glyphicon-info-sign"> About </span></a></li>

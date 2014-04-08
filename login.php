@@ -29,6 +29,9 @@ This page also uses a JQuery Validation Plugin to help with client side validati
         // For more information, see: http://us2.php.net/manual/en/function.hash.php. 
 
         $pass = hash('sha256',mysqli_real_escape_string($db_connect,$_POST['password']));
+
+        echo "User: " . $user;
+        echo "Pass: " . $pass;
         $query = mysqli_query($db_connect, "Select * from users where Email='$user' AND Password='$pass' limit 1"); // Query which checks if the username and password match a user.
 
          // check if the user exists, by checking if the query returns a row or not

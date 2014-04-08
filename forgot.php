@@ -67,7 +67,7 @@ function send_mail_to($to,$mailer,$newpass)
 {
 	$subject = "Reset Password"; // Subject of the email
 	$body = "Your new password is: $newpass." .PHP_EOL . 
-	"If you wish to reset your password, follow the reset link for the acronym identification site: http://acronym-id.servehttp.com/reset.php?email=$to"; // Body of text of the email
+	"If you wish to reset your password, follow the reset link for the acronym identification site: http://localhost/reset.php?email=$to"; // Body of text of the email
 
 	// setting the from, to and body of the email. Part of swift mailer
 	$message = Swift_Message::newInstance($subject)

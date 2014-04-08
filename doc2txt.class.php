@@ -1,7 +1,8 @@
 <!--
 
 This class was submitted by Tony Cullen as part of the Acronym Identification System. 
-This class 
+
+All of the code in this file was written by Gourav Mehta. 
 
 This class is downloaded from: http://www.phpclasses.org/package/7934-PHP-Convert-MS-Word-Docx-files-to-text.html
 

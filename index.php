@@ -19,7 +19,7 @@ The page also contains a dropzone using Dropzone JS. See: http://www.dropzonejs.
 This page also uses a PosTagger, which helps return only the nouns found within the text. This is used because the system identifies acronyms as either capitalized
 words or nouns (examples: laser, scuba)
 
-This page also makes use of Doc2Txt class in order to convert doc/docx files to be converted to txt files. 
+This page also makes use of Gourav Mehta's Doc2Txt class which was downloaded from php classes in order to convert doc/docx files to be converted to txt files. 
 Class can be downloaded from: http://www.phpclasses.org/package/7934-PHP-Convert-MS-Word-Docx-files-to-text.html
  
 -->

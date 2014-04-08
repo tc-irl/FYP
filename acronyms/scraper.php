@@ -21,30 +21,29 @@ $acronym_list = new DOMDocument(); // Creating a new DOMDocument, which represen
 $first_page = 1; // first page to be scraped
 $last_page = 5; // last page to be scraped. 
 
-// http://www.acronymslist.com/cat/us-military-acronyms-p'.$i.'.html
-
 for($i = $first_page; $i <= $last_page; $i++)
 { 
     //@ suppresses warnings. Loading the html file based on a given url. 
-    // To gather more acronyms on this site. We simply change the url on the site for the relevant URL, e.g. http://www.acronymslist.com/cat/us-military-acronyms-p'.$i.'.html will be used 
+    // To gather more acronyms on this site. We simply change the url on the site for the relevant URL, 
+	// e.g. http://www.acronymslist.com/cat/us-military-acronyms-p'.$i.'.html will be used 
   
-	 @$acronym_list->loadHTMLFile('http://www.acronymslist.com/cat/computer-acronyms-(common)-p'. $i .'.html'); // Part of tutorial
-	  $path = new DOMXPATH($acronym_list); // Declare an instance of the DOMXPATH, which allows us to query the DOMDocument. Part of tutorial. 
+	$acronym_list->loadHTMLFile('http://www.acronymslist.com/cat/computer-acronyms-(common)-p'. $i .'.html'); // Part of tutorial
+	$path = new DOMXPATH($acronym_list); // Declare an instance of the DOMXPATH, which allows us to query the DOMDocument. Part of tutorial. 
     $acronyms = $path->query('//a[@class="special"]'); // get all a elements with class="special" -> class="special" is used in each instance of the Acronyms being displayed on the site. Part of tutorial. 
-    $definitions = $path->query('//td[@width="450"]'); // get all td elements with width="450" -> width="450" is unique for each definition on the page. Part of tutorial. 
+    $definitions = $path->query('//td[@width="450"]'); // get all td elements with width="450" -> width="450" is unique for each definition.
 
   		//for loop which is used for each acronym and associated definition
       foreach($acronyms as $acronym)
       {
-        // Append the acronym and definition together, separated by an "=" . So it the variable will look something like: "OS = Operating System". ->nodeValue gets the value of the acronym. 
+        // Append the acronym and definition together, separated by an "=" . 
+		//So the variable will look something like: "OS = Operating System". ->nodeValue gets the value of the acronym. 
       	
-        $acronym_definition = $acronym->nodeValue . " = " . $definitions->item($counter)->nodeValue . PHP_EOL; // Part of tutorial
+			$acronym_definition = $acronym->nodeValue . " = " . $definitions->item($counter)->nodeValue . PHP_EOL; // Part of tutorial
 		    $open_file = fopen('C:\wamp\www\acronyms\IT.txt', 'a'); // Opening the file to be appended. 
 		    fwrite($open_file, $acronym_definition); // Write to the file. 
 
         $counter++; 
       }
-
       $counter = 0; 
 }
 

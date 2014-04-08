@@ -29,7 +29,7 @@ This page also uses a JQuery Validation Plugin to help with client side validati
 
 			$old_pass = hash('sha256',mysqli_real_escape_string($db_connect, $_POST['password']));
 			$pass = hash('sha256', mysqli_real_escape_string($db_connect, $_POST['newPassword']));
-			@$email = mysqli_real_escape_string($db_connect, $_GET['email']); // Assigning the email address to the $email variable
+			$email = mysqli_real_escape_string($db_connect, $_GET['email']); // Assigning the email address to the $email variable
 
 		    $check_pass = mysqli_query($db_connect, "Select Email from users where Email='$email' and Password ='$old_pass'" ); // Check if old pass matches that of the users account.
 

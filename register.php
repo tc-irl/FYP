@@ -53,7 +53,6 @@ if(isset($_POST['submit']))
 	    $message = "Please fill in all spaces.";
         header('Location: loginreg.php?page=login&message=' . $message); //return the login page with error message
         exit; // terminates the script
-        }
 	}  
 }
 ?>

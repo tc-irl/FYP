@@ -20,7 +20,7 @@ Note * -> Code used from the downloaded classes are identified by: "Part of the 
   use Camspiers\StatisticalClassifier\Model\CachedModel; // Use a cached model, which caches the trained data into a file. 
   use Camspiers\StatisticalClassifier\DataSource\DataArray; // Use DataArray class for handling the documents into a suitable data array. 
 
-	$source = new DataArray(); // creating the data array. Part of the PHP Classifier Classes. 
+  $source = new DataArray(); // creating the data array. Part of the PHP Classifier Classes. 
 
   $dir = "./FYPDocs/Train/";
   $cats = array("IT","Medical","Business","Mili-Gov");
