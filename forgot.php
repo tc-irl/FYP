@@ -29,8 +29,8 @@ if(isset($_POST['submit']))
 
 		// Create a transport, using gmail as the smtp. See: http://swiftmailer.org/docs/sending.html for more information. Part of swift mailer. 
 		$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
-				->setUsername('acronymid@gmail.com') // username of email
-				->setPassword('testmail123');  //password of email
+				->setUsername('justforgithub4884fe9309@gmail.com') // username of email
+				->setPassword('wdwfe3r453evd');  //password of email
 
    			$mailer = Swift_Mailer::newInstance($transport); // create a new instance of the swift mailer class with transport as the parameter. Part of the swift mailer
 
